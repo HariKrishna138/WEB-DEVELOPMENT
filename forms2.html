@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        <style>
+        table,th,tr,td{
+                border-collapse:collapse;
+        }
+        button{
+                background-color: blue;
+                color:aliceblue
+
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>REGISTERATION FORM</h1>
+        <form>
+            <table border="2">  
+            
+             <tr>   
+            <th>NAME</th>
+            <td><input type="text" name="name"   placeholder="enter your name"></td></tr>
+            <tr>
+            <th>EMAIL</th><td><input type="text" name="email" placeholder="enter yout email"></td></tr>
+            <tr>
+            <th>Phone Number</th><td><input type="number" name="phno" placeholder="enter your phone number" max-length="10"></td></tr>
+            <tr>
+            <th>Date of Birth</th><td><input type="date" name="date"></td></tr>
+            <tr>
+                <th>Gender</th>
+            <td><input type="radio" name="gender"> male
+            <input type="radio" name="gender"> female
+            <input type="radio" name="gender"> others</td></tr>
+            <tr>
+            <th>Education Qualification</th>
+            <td>
+            <input type="checkbox" name="degree"> Btech
+            <input type="checkbox" name="degree"> DIPLOMA
+            <input type="checkbox" name="degree"> INTER
+            <input type="checkbox" name="degree"> SSC
+            <input type="checkbox" name="degree"> Mtech
+            </td>
+            </tr>
+            <tr>
+            <th>about youself</th>
+            <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+            <td><select>
+                <option>choose your country</option>
+                <option>INDIA</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>SA</option>
+                <option>nepal</option>
+            </select></td></tr>
+        </table>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+            </center>
