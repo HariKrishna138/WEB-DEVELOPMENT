@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        button{
+            color: white;
+            background-color: rgb(42, 117, 237);
+        }
+    </style>
+</head>
+<body>
+    <h1>JAVASCRIPT OUTPUT METHODS</h1>
+    <p id="uih"></p>
+    <button onclick="sa()">Show Alert</button>
+    <button onclick="wd()">Write to Document</button>
+    <button onclick="ltc()">Log to Console</button>
+    <button onclick="uih()">Update Inner HTML</button>
+    <script>
+        function sa(){
+            alert("OUTPUT IS DISPLAYED THROUGH ALRERT BOX");
+        }
+        function wd(){
+            document.write("Document Output");
+        }
+        function ltc(){
+            console.log("console output")
+        }
+        function uih(){
+            document.getElementById("uih").innerHTML="Inner HTML output";
+        }
+    </script>
+</body>
+</html>
