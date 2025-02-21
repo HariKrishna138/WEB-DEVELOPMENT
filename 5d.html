@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+        div{
+            border:5px solid rgb(7, 74, 157);
+            width: 300px;
+            margin-left:auto;
+            margin-right: 15%;
+            background-color: rgb(204, 203, 203);
+            padding: 10px;
+        }
+        p{
+           margin-left: 10px;
+           color:rgb(46, 44, 44);
+           font-weight: bold;
+        }
+        .p1{
+           background-color: white;
+           padding: 5px;
+           margin-right: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS BOX MODEL DEMONSTRATION</h1>
+    <div>
+    <p>Margin</p>
+    <p>Border</p>
+    <p class="p1">This is the content inside the box!</p>
+    <p>Padding</p>
+    </div>
+    <h4>This example demonstrates the CSS box model:</h4>
+    <ul>
+        <li><b>Contents:</b>The white area in the center where the text is displayed.</li>
+        <li><b>Padding:</b>The space between the content and the border(light gray).</li>
+        <li><b>Border:</b>The solid blue line surrounding the box.</li>
+        <li><b>Margin:</b>The space outside the border (moves the box away from other elements).</li>
+    </ul>
+</body>
+</html>
