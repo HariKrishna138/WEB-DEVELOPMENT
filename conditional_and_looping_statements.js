@@ -16,11 +16,3 @@ console.log(even)
 console.log(odd)
 var l = even.length+odd.length
 console.log(l)
-var squared_arr_even=[]
-var squared_arr_odd=[]
-for(var j=0;j<l;j++){
-    squared_arr_even.push(even[j]+even[j])
-    squared_arr_odd.push(odd[j]+odd[j])
-}
-console.log(squared_arr_even)
-console.log(squared_arr_odd)
