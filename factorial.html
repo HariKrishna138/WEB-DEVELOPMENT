@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Factorial</title>
+        <script>
+            function fact(){
+                var a=parseInt(prompt("Enter a number: "))
+                var fact=1
+                 for(var i=1;i<=a;i++){
+                    fact=fact*i;
+                }
+                window.alert("The factorial of "+a+" is "+fact)
+            }
+            
+        </script>
+    </head>
+    <body>
+        <button onclick="fact()">factorial</button>
+    </body>
+    </html>
